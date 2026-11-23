@@ -28,7 +28,7 @@ function App() {
     {
       id: 104,
       name: "Sneha",
-      department: "IT",
+      department: "training",
       salary: 50000
     }
   ];
@@ -67,6 +67,9 @@ function App() {
 
         <button onClick={() => setDepartment("Finance")}>
           Finance
+        </button>
+        <button onClick={() => setDepartment("training")}>
+          training
         </button>
 
       </div>

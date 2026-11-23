@@ -1,0 +1,66 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f2f4f8;
+}
+
+.container {
+  text-align: center;
+  padding: 30px;
+}
+
+h1 {
+  color: #1e293b;
+  margin-bottom: 25px;
+}
+
+h3 {
+  color: #334155;
+}
+
+.filter-buttons {
+  margin: 25px 0;
+}
+
+.filter-buttons button {
+  padding: 12px 25px;
+  margin: 8px;
+  border: none;
+  background-color: #2563eb;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.filter-buttons button:hover {
+  background-color: #1e40af;
+}
+
+.employee-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.employee-card {
+  background-color: white;
+  width: 250px;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  text-align: left;
+}
+
+.employee-card h2 {
+  color: #2563eb;
+  text-align: center;
+}
+
+.employee-card p {
+  color: #334155;
+  font-size: 16px;
+}
